@@ -1,1 +1,1 @@
-![Screenshot 2024-09-17 at 18-24-17 Crud Table](https://github.com/user-attachments/assets/34885928-5a88-4224-ba3d-b0751ae2ad23)
+![Screenshot 2024-09-17 at 18-53-51 Crud Table](https://github.com/user-attachments/assets/366bc32e-cf91-47cf-9b63-5f341b4fb6ba)
