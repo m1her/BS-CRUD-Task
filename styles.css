@@ -13,6 +13,7 @@ body {
 td,
 th {
   white-space: nowrap;
+  vertical-align: middle; 
 }
 
 .search-container {

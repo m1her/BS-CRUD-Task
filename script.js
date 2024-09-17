@@ -45,13 +45,13 @@ const displayRecords = (filtered = members) => {
         <td>${user.email}</td>
 
         <td>
-        <div class="tier px-4 rounded-pill bg-opacity-10 d-flex align-items-center justify-content-center pb-1">
+        <div style="padding-bottom: 2px;" class="tier px-4 rounded-pill bg-opacity-10 d-flex align-items-center justify-content-center">
         ${user.tier}
         </div>
         </td>
         
         <td>
-        <div class="rounded-pill bg-opacity-10 px-3 d-flex align-items-center justify-content-center pb-1
+        <div style="padding-bottom: 2px;" class="rounded-pill bg-opacity-10 px-3 d-flex align-items-center justify-content-center
         ${user.isActive ? "text-success bg-success" : "text-danger bg-danger"}">
         ${user.isActive ? "Active" : "Inactive"}
         </div>
@@ -59,7 +59,7 @@ const displayRecords = (filtered = members) => {
 
         <td>${user.paymentMethod}</td>
         <td>
-        <div class="rounded-pill bg-opacity-10 d-flex align-items-center justify-content-center pb-1
+        <div style="padding-bottom: 2px;" class="rounded-pill bg-opacity-10 d-flex align-items-center justify-content-center
         ${user.renewal ? "text-success bg-success" : "text-danger bg-danger"}">
         ${user.renewal ? "Yes" : "No"}
         </div>
