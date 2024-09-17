@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f5f5;
+  width: 100%;
+  min-height: 100vh;
+}
+
+td,
+th {
+  white-space: nowrap;
+}
+
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search-container {
+  font-size: small;
+  min-width: 200px;
+  padding: 8px 12px 8px;
+  background-color: #ffffff20;
+  outline: 1px solid #ffffff40;
+}
+
+.search-container:focus-within {
+  outline: 1px solid #ffffff90;
+}
+
+.id {
+  font-weight: 600;
+}
+
+.tier {
+  width: 110px;
+}
+
+.free {
+  color: LimeGreen;
+  background-color: #90ee9030;
+}
+.vip {
+  color: DarkOrange;
+  background-color: #ff8c0020;
+}
+.golden {
+  color: gold;
+  background-color: #ffd70020;
+}
+.diamond {
+  color: LightSkyBlue;
+  background-color: #b0c4de20;
+}
